@@ -11,8 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "now": "now"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,8 +24,5 @@
   ],
   "resolutions": {
     "terser": "3.14.1"
-  },
-  "devDependencies": {
-    "now": "^13.1.2"
   }
 }
