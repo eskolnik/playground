@@ -1,14 +1,11 @@
-import React, { Component, Fragment } from "react";
+import React, { Component, Fragment, useState, useEffect } from "react";
+import ContextDrawer from './ContextDrawer/ContextDrawer'
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Layout>
-          <MainContent />
-        </Layout>
-      </div>
+      <ContextDrawer />
     );
   }
 }
