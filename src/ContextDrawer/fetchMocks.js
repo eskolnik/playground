@@ -23,4 +23,8 @@ const fetchContextData = () => {
   })
 }
 
-export {fetchContextData}
+const saveContextData = (payload) => {
+  alert("SAVED\n"  + payload)
+}
+
+export {fetchContextData, saveContextData}
